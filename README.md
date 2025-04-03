@@ -15,29 +15,6 @@ TeleGO là một hệ thống đa nền tảng được thiết kế để quả
 * **Tự động hóa quy trình:** Tự động hóa các tác vụ lặp đi lặp lại để tiết kiệm thời gian và công sức.
 * **API mạnh mẽ:** Cung cấp API để tích hợp với các hệ thống khác.
 
-## Cấu trúc dự án
-
-TeleGO/
-├── web-app/         # Ứng dụng web
-│   ├── public/       # Tài nguyên tĩnh
-│   ├── src/          # Mã nguồn ứng dụng web
-│   └── ...
-├── mobile-app/      # Ứng dụng di động
-│   ├── android/      # Mã nguồn Android
-│   ├── ios/          # Mã nguồn iOS
-│   ├── src/          # Mã nguồn React Native
-│   └── ...
-├── backend/         # Backend (API, cơ sở dữ liệu)
-│   ├── api/          # API
-│   ├── database/     # Cấu hình cơ sở dữ liệu
-│   └── ...
-├── docs/            # Tài liệu dự án
-│   └── ...
-├── .env              # Biến môi trường
-├── package.json      # Quản lý dependencies
-└── README.md
-
-
 ## Công nghệ sử dụng
 
 * **Ứng dụng web:** React, Vite, TypeScript
