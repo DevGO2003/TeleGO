@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "mobile-app",
+    "slug": "mobile-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.reactnative.devgo2003.mobileapp"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "main": "./index.js",
+    "extra": {
+      "eas": {
+        "projectId": "62f4c291-ed02-4ed0-9686-5bf1f9a9b569"
+      }
+    }
+  }
+}
